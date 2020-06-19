@@ -42,7 +42,7 @@ $ flask run
  ### Web UI
 
 <tr>
-    <td><img src="static/image/ui_sample.png" width=400></td>
+    <td><img src="static/image/ui_sample.jpg" width=400></td>
     <td><img src="static/image/UI_sample_2.png" width=400></td>
 </tr>
 
