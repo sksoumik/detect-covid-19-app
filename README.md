@@ -43,7 +43,8 @@ $ flask run
 
 
 <kbd><img src="static/image/ui_sample.jpg" width=500></kbd>
-<hr/>
+<br />
+<br />
 <kbd><img src="static/image/UI_sample_2.png" width=500></kbd>
 
 
