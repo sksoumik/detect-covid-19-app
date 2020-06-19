@@ -39,6 +39,13 @@ $ flask run
  ``` 
  - Go to `http://127.0.0.1:5000/` web URL in your browser to see the web application. 
 
+ ### Web UI
+
+<tr>
+    <td><img src="static/image/ui_sample.png" width=400></td>
+    <td><img src="static/image/UI_sample_2.png" width=400></td>
+</tr>
+
  ---
 
  Developed by Sadman Kabir Soumik 
