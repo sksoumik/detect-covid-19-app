@@ -14,7 +14,7 @@ from tensorflow.keras.preprocessing import image
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
 from gevent.pywsgi import WSGIServer
-import cv2 
+import cv2
 
 # Define a flask app
 app = Flask(__name__)
@@ -61,13 +61,13 @@ def upload():
         preds = model_predict(file_path, model)
 
         # Process your result for human
-        pred_class = preds.argmax(axis=-1)            # Simple argmax
+        pred_class = preds.argmax(axis=-1)  # Simple argmax
         # pred_class = decode_predictions(preds, top=1)  # ImageNet Decode
         result = str(pred_class)  # Convert to string
         if result == '[1]':
             return "Negative (Patient Normal)"
         else:
-            return "Positive (high possibility: covid-19 affected)" 
+            return "Positive (high possibility: covid-19 affected)"
     return None
 
 

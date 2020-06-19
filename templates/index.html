@@ -1,6 +1,6 @@
 {% extends "base.html" %} {% block content %}
 
-<h5>Upload a chest x-ray image to see if the patient is COVID-19 affected or not</h5>
+<h6>Upload a chest x-ray image to see if the patient is COVID-19 affected or not</h6>
 
 <div>
     <form id="upload-file" method="post" enctype="multipart/form-data">
@@ -10,7 +10,7 @@
         <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
     </form>
 
-    <div class="image-section" style="display:none;">
+    <div class="image-section">
         <div class="img-preview">
             <div id="imagePreview">
             </div>

@@ -5,7 +5,7 @@ uploads/
 __pycache__/
 *.py[cod]
 *$py.class
-
+ml_models/covid19.model
 # C extensions
 *.so
 *.pyc
