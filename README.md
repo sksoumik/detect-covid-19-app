@@ -1,5 +1,5 @@
 # detect-covid-19
-Covid-19 detection from X-ray images using Computer Vision
+Covid-19 detection from X-ray images using Computer Vision and deploying ML model to a Flask server. 
 
 ---
 ### Run the project:
@@ -37,7 +37,7 @@ Covid-19 detection from X-ray images using Computer Vision
 $ export FLASK_APP=app.py
 $ flask run 
  ``` 
- - Go to `http://127.0.0.1:5000/` web URL in your browser to the application. 
+ - Go to `http://127.0.0.1:5000/` web URL in your browser to see the web application. 
 
  ---
 
