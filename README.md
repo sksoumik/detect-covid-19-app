@@ -22,17 +22,17 @@ Covid-19 detection from X-ray images using Computer Vision and deploying ML mode
  ```
  $ pip install requirements.txt
  ```
- - or, you can also create a conda environment using the `conda.yaml` file. command:  
+ - or, you can also create a conda environment using the `conda.yaml` file; command:  
  ```
  $ conda env create -f conda.yaml
  ```
- - Run the machine learning(ML) code to generate ML model weights, command:
+ - Run the machine learning (ML) code to generate model weights; command:
 
  ```
  $ python ml_train.py
  ```
- - Model will be saved in the `ml_models` directory.
- - To serve the model to the flask server, command: 
+ - Model will be saved in the `ml_models/` directory.
+ - To serve the model to the flask server; command: 
  ```
 $ export FLASK_APP=app.py
 $ flask run 
@@ -41,10 +41,10 @@ $ flask run
 
  ### Web UI
 
-<tr>
-    <td><img src="static/image/ui_sample.jpg" width=400></td>
-    <td><img src="static/image/UI_sample_2.png" width=400></td>
-</tr>
+
+<kbd><img src="static/image/ui_sample.jpg" width=500></kbd>
+<kbd><img src="static/image/UI_sample_2.png" width=500></kbd>
+
 
  ---
 
